@@ -1,5 +1,5 @@
 # rpi5-soc-lab
-SOC lab on home rpi5 server.
+My own SOC lab on my home rpi5 server. I tend to have a habit of not documenting as I just love to get straight into working, so my goal here is to write what I am using and how I am using it so other can follow along if they wish. I will also try to keep this up-to-date, with what packages I've recently installed with why and how to install them.
 
 When working with my own projects I really like to lean towards free open-source software (FOSS) as much as I can. If it's not free but open-source I would still consider using it. With the server being linux nearly everything is going to installed, and configured via the CLI.
 And as my server is headless so it would be much easier for me to SSH into the server itself from my main PC or my laptop when roaming. If you would like to do the same you can either use the server like an ordinary pc with a keyboard, mouse, and monitor or my method of SSH'ing into the server remotely. Please be aware that you would need to setup the server with all the I/O equipment.

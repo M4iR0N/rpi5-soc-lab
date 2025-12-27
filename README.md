@@ -6,10 +6,10 @@ And as my server is headless so it would be much easier for me to SSH into the s
 
 # VPN Setup
 How to connect to your server when away from home? That's easy a VPN. Basically you are creating a secure tunnel for your devices and server to connect to one another. A little bit of tinkering here and there setting up and configuring your VPN client and port-forwarding on your router and you're basically there.
-I use wireguard vpn for my tunnelling. There isn't really a guide from wireguard per se, but to make it easier there is [this guide](https://www.scaleway.com/en/docs/tutorials/install-wireguard/) from scaleway.
+I use wireguard vpn for my tunnelling. There isn't really a guide from wireguard per se, but to make it easier there is [this guide](https://www.scaleway.com/en/docs/tutorials/install-wireguard/) from scaleway. If you're not up for the task you can use another app that allows users to install it via a script that does it for you, basically a click to install button. (you can find it here)[https://www.pivpn.io/].
 
 # UFW Firewall setup
-UFW is a free open-source firewall. To install ufw use the command (based on the apt package manager) `# apt install ufw -y`, once installed reboot the machine. I found that once installed every port will be blocked until you manually allow it within its ruleset.
+UFW is a free open-source firewall. To install ufw use the command (based on the apt package manager) `# apt install ufw -y`, once installed reboot the machine. I found that once installed every port will be blocked until you manually allow it within its ruleset. As the port 22 (SSH) and port 51820 (Wireguard VPN) will be blocked we'll need to allow it to make them work. Using `# ufw allow port 22` and `# ufw allow port 51820` will add them to the ruleset and allow incoming and outgoing connections. For now I'm going to leave it as is, but once everything is configured and running smoothly will then make the rules more complex by adding the type of protocols and destinations. If you'd like to read me here is the [help guide](https://help.ubuntu.com/community/UFW).
 
 # Fail2Ban 
 

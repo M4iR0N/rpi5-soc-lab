@@ -17,3 +17,8 @@ Fail2Ban is another free open-source app that should be used on a home server. O
 
 
 # Ad-blocking
+This is probably one of the most anticipated projects I've wanted to do with my own server, fairly basic yes but as a security and privacy advocate it's a must.
+
+I've chosen Pi-hole specifically for this, not only is it a free and open-source project but it is built for a raspberry pi which is exactly what I am using. Pi-hole is an open-source DNS sinkhole that blocks unwanted traffic. A DNS sinkhole will give out a non-routable address if a domain is malicious, the DNS server will give a fake IP rather than the actual IP to that malicious domain stopping a host accessing that site and routing it to a safe domain so the connection is not reached.
+
+Pi-hole can also be installed on other platforms, including a variety of linux distributions, and docker containers. The full list of support platforms can be found on the official documentation here: https://docs.pi-hole.net/main/prerequisites/#supported-operating-systems

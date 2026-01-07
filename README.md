@@ -22,3 +22,11 @@ This is probably one of the most anticipated projects I've wanted to do with my 
 I've chosen Pi-hole specifically for this, not only is it a free and open-source project but it is built for a raspberry pi which is exactly what I am using. Pi-hole is an open-source DNS sinkhole that blocks unwanted traffic. A DNS sinkhole will give out a non-routable address if a domain is malicious, the DNS server will give a fake IP rather than the actual IP to that malicious domain stopping a host accessing that site and routing it to a safe domain so the connection is not reached.
 
 Pi-hole can also be installed on other platforms, including a variety of linux distributions, and docker containers. The full list of support platforms can be found on the official documentation here: https://docs.pi-hole.net/main/prerequisites/#supported-operating-systems
+
+
+# Future Plans
+1. Open-Source SIEM/IDS
+2. Home ticketing system with Low, Medium, and High Priority tickets.
+3. Media Server
+4. Update Proxmox Desktop Server to communication with Rpi-Server.   
+  

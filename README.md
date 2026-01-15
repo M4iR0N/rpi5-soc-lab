@@ -25,8 +25,8 @@ Pi-hole can also be installed on other platforms, including a variety of linux d
 
 
 # Future Plans
-1. Open-Source SIEM/IDS
+1. Open-Source SIEM/IDS project
 2. Home ticketing system with Low, Medium, and High Priority tickets.
-3. Media Server
-4. Update Proxmox Desktop Server to communication with Rpi-Server.   
-  
+3. Media Server, Plex or Jellyfin
+4. Update Proxmox Desktop Server to communicate with Rpi-Server.
+5. Security & Privacy hardening of service configs.

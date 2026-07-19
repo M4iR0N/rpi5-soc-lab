@@ -23,6 +23,8 @@ I've chosen Pi-hole specifically for this, not only is it a free and open-source
 
 Pi-hole can also be installed on other platforms, including a variety of linux distributions, and docker containers. The full list of support platforms can be found on the official documentation here: https://docs.pi-hole.net/main/prerequisites/#supported-operating-systems
 
+# Encryption at Rest
+Being an advocate of Privacy and Security, it's essential to keep the number one most valuable asset you have online, and that's your data; Be it online or offline, you need to keep your data secure. Here I will be discussing the importance of Encrypting your data at rest. Let's say you stored your private photos or backed up your bank statements ready for the end of the month budgeting, or doing your own taxes or worse maybe your passwords on a USB flash drive. You took your laptop and usb out with you too coffee, you left and forgot your usb flash drive that contained all of your data at the shop, and someone stole it. Now they have your data, readable format knowing things about you from banking, photos and even passwords. Because you didn't encrypt that data is now freely available to anyone who has that USB flash drive. I will show you how to encrypt your data completly free. If you use Windows or Mac OS you can use Veracrypt it also works on Linux as well so that's a plus. If you solely use Linux, you can use what's included and that's Luks through cryptsetup.
 
 # Future Plans
 1. Open-Source SIEM/IDS project

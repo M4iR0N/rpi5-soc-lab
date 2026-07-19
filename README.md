@@ -1,5 +1,5 @@
-# rpi5-soc-lab
-My own SOC lab on my home rpi5 server. I tend to have a habit of not documenting as I just love to get straight into working, so my goal here is to write what I am using and how I am using it so other can follow along if they wish. I will also try to keep this up-to-date, with what packages I've installed, why I've chosen them, and how to install them.
+# rpi5-home-lab
+My own home lab on my home rpi5 server. I tend to have a habit of not documenting as I just love to get straight into working, so my goal here is to write what I am using and how I am using it so other can follow along if they wish. I will also try to keep this up-to-date, with what packages I've installed, why I've chosen them, and how to install them.
 
 When working with my own projects I really like to lean towards free open-source software (FOSS) as much as I can. If it's open-source but not free, I would still consider using it. With the server being linux (Raspberry Pi OS) nearly everything is going to installed, and configured via the CLI.
 My server is headless so it would be much easier for me to SSH into the server itself from my main PC, my laptop or phone when roaming. If you would like to do the same you can either use the server like an ordinary pc with a keyboard, mouse, and monitor or my method of SSH'ing into the server remotely. Please be aware that you would need to setup the server with all the I/O equipment.
@@ -26,7 +26,9 @@ Pi-hole can also be installed on other platforms, including a variety of linux d
 # Encryption at Rest
 Being an advocate of Privacy and Security, it's essential to keep the number one most valuable asset you have online, and that's your data; Be it online or offline, you need to keep your data secure. Here I will be discussing the importance of Encrypting your data at rest. Let's say you stored your private photos or backed up your bank statements ready for the end of the month budgeting, or doing your own taxes or worse maybe your passwords on a USB flash drive. You took your laptop and usb out with you too coffee, you left and forgot your usb flash drive that contained all of your data at the shop, and someone stole it. Now they have your data, readable format knowing things about you from banking, photos and even passwords. Because you didn't encrypt that data is now freely available to anyone who has that USB flash drive. I will show you how to encrypt your data completly free. If you use Windows or Mac OS you can use Veracrypt it also works on Linux as well so that's a plus. If you solely use Linux, you can use what's included and that's Luks through cryptsetup.
 
-# Future Plans
+To install Veracrypt goto https://veracrypt.io/en/Downloads.html and download your corresponding file for your operating system. I myself uses the Debian packages .deb so I can get updates via the APT package manager. 
+
+# Future Plans [no particular order]
 1. Open-Source SIEM/IDS project
 2. Home ticketing system with Low, Medium, and High Priority tickets.
 3. Media Server, Plex or Jellyfin

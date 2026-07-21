@@ -1,0 +1,11 @@
+# These are the ports that I've used so far in my project. Eventually i'll have a bash script if you wish to use these yourself.
+
+port 80 tcp	# HTTP
+port 443 tcp	# HTTPS
+port 22 tcp	# SSH
+port 53 tcp	# DNS
+port 53 udp	# DNS
+port 67 tcp	# DHCP
+port 67 udp	# DHCP
+port 123 udp	# Network Time Protocol
+

@@ -26,7 +26,12 @@ Pi-hole can also be installed on other platforms, including a variety of linux d
 # Encryption at Rest
 Being an advocate of Privacy and Security, it's essential to keep the number one most valuable asset you have online, and that's your data; Be it online or offline, you need to keep your data secure. Here I will be discussing the importance of Encrypting your data at rest. Let's say you stored your private photos or backed up your bank statements ready for the end of the month budgeting, or doing your own taxes or worse maybe your passwords on a USB flash drive. You took your laptop and usb out with you too coffee, you left and forgot your usb flash drive that contained all of your data at the shop, and someone stole it. Now they have your data, readable format knowing things about you from banking, photos and even passwords. Because you didn't encrypt that data is now freely available to anyone who has that USB flash drive. I will show you how to encrypt your data completly free. If you use Windows or Mac OS you can use Veracrypt it also works on Linux as well so that's a plus. If you solely use Linux, you can use what's included and that's Luks through cryptsetup.
 
-To install Veracrypt goto https://veracrypt.io/en/Downloads.html and download your corresponding file for your operating system. I myself uses the Debian packages .deb so I can get updates via the APT package manager. 
+To install Veracrypt goto https://veracrypt.io/en/Downloads.html and download your corresponding file for your operating system. I myself uses the Debian packages .deb so I can get updates via the APT package manager. AppImage is okay if you wish to be portable (USB) but don't forget to check the versions to keep updated.
+Be sure to check the PGP Signature before installing to verify the authors Signature.
+
+
+# Using PGP
+When wanting to verify a signature of a file to ensure its the actual author not a bad actor uploading malware to the site, you can use the standard that people use and that's PGP, Pretty Good Privacy. Its an Encryption program that uses the Open Standard OpenPGP 
 
 # Future Plans [no particular order]
 1. Open-Source SIEM/IDS project
